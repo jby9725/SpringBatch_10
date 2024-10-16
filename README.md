@@ -3,9 +3,12 @@
 - 명령어 : mysqldump -u root SpringBatch_10 | mysql -u root SpringBatch_10_back
 
 ## XAMPP에서 Shell로 쿼리문 빼내기
-- 명령어 : mysqldump -u root SpringBatch_10 > SpringBatch_10.sql
+- 명령어
+  1. start.
+  2. mysqldump -u root SpringBatch_10 > SpringBatch_10.sql
 
-## XAMPP에서 Shell로 쿼리문 ..... 
+## XAMPP에서 Shell로 쿼리문 백업본에 실행시키기 
 - 명령어
   1. start .
-  2. (1015 동영상 참고)
+  2. mysqldump -u root SpringBatch_10_backup < SpringBatch_10.sql
+  3. (1015 동영상 참고)
