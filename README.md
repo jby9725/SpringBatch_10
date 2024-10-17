@@ -12,3 +12,10 @@
   1. start .
   2. mysqldump -u root SpringBatch_10_backup < SpringBatch_10.sql
   3. (1015 동영상 참고)
+
+---
+
+### 공부한 시나리오 정리
+- 회원 4명 샘플데이터 생성 (코드로 DB 컨트롤)
+- 상품 2개 샘플데이터 생성 (코드로 DB 컨트롤)
+  - 상품에 대한 옵션 테이블도 생성함
